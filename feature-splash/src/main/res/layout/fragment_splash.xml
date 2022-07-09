@@ -12,7 +12,7 @@
         android:layout_height="@dimen/logo_height"
         android:layout_gravity="center_vertical|center_horizontal"
         android:layout_marginHorizontal="24dp"
-        android:src="@drawable/img_edgeware"
+        android:src="@drawable/bg_dfinn"
         app:layout_constraintBottom_toTopOf="@+id/txtAppName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
