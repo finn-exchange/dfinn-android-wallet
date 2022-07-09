@@ -21,7 +21,7 @@
 
     <ImageView
         android:id="@+id/logoImg"
-        android:layout_width="@dimen/logo_height"
+        android:layout_width="@dimen/logo_width"
         android:layout_height="@dimen/logo_height"
         android:layout_marginHorizontal="24dp"
         android:contentDescription="@null"
@@ -40,7 +40,6 @@
         android:layout_marginHorizontal="24dp"
         android:gravity="center_horizontal"
         android:text="@string/text_app_name"
-        android:textAllCaps="true"
         android:textColor="@color/white"
         android:textSize="@dimen/app_text_size"
         app:layout_constraintBottom_toTopOf="@id/buttonsView"

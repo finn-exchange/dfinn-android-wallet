@@ -12,10 +12,10 @@ android {
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
-        buildConfigField "String", "WEBSITE_URL", "\"https://edgewa.re/\""
-        buildConfigField "String", "PRIVACY_URL", "\"https://edgewa.re/privacy\""
-        buildConfigField "String", "TERMS_URL", "\"https://edgewa.re/privacy\""
-        buildConfigField "String", "GITHUB_URL", "\"https://github.com/finn-exchange/edgeware-android-wallet\""
+        buildConfigField "String", "WEBSITE_URL", "\"https://dfinn.live/\""
+        buildConfigField "String", "PRIVACY_URL", "\"https://dfinn.live/privacy-policy\""
+        buildConfigField "String", "TERMS_URL", "\"https://dfinn.live/privacy-policy\""
+        buildConfigField "String", "GITHUB_URL", "\"https://www.github.com/finn-exchange\""
 
         buildConfigField "String", "PAYOUTS_LEARN_MORE", "\"https://wiki.polkadot.network/docs/en/learn-simple-payouts\""
 
