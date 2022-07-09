@@ -14,13 +14,7 @@ import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import com.dfinn.wallet.common.R
 import com.dfinn.wallet.common.utils.*
-import kotlinx.android.synthetic.main.view_toolbar.view.backImg
-import kotlinx.android.synthetic.main.view_toolbar.view.rightImg
-import kotlinx.android.synthetic.main.view_toolbar.view.rightText
-import kotlinx.android.synthetic.main.view_toolbar.view.titleTv
-import kotlinx.android.synthetic.main.view_toolbar.view.toolbarContainer
-import kotlinx.android.synthetic.main.view_toolbar.view.toolbarCustomActions
-import kotlinx.android.synthetic.main.view_toolbar.view.toolbarDivider
+import kotlinx.android.synthetic.main.view_toolbar.view.*
 
 class Toolbar @JvmOverloads constructor(
     context: Context,
@@ -62,7 +56,7 @@ class Toolbar @JvmOverloads constructor(
             val dividerVisible = typedArray.getBoolean(R.styleable.Toolbar_dividerVisible, true)
             toolbarDivider.setVisible(dividerVisible)
 
-            val backgroundAttrDrawable = typedArray.getDrawable(R.styleable.Toolbar_contentBackground) ?: ColorDrawable(context.getColor(R.color.background))
+            val backgroundAttrDrawable = typedArray.getDrawable(R.styleable.Toolbar_contentBackground) ?: ColorDrawable(context.getColor(R.color.black))
             toolbarContainer.background = backgroundAttrDrawable
 
             val textAppearance = typedArray.getResourceIdOrNull(R.styleable.Toolbar_titleTextAppearance)
